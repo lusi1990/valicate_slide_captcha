@@ -11,4 +11,6 @@
 
 如果不想被检测到是 selenium 控制的浏览器可以添加参数 options.add_experimental_option('excludeSwitches', ['enable-automation']), 启用开发者模式.
 现在还需要添加 `options.add_argument('--disable-blink-features=AutomationControlled')`
-通过浏览器指纹仍然可以被检测到是爬虫
+
+
+但是通过浏览器指纹仍然可以被检测到是爬虫
